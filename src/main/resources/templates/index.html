@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head th:replace="layout :: head(~{::title})">
+        <title>Home</title>
+    </head>
+    <body>
+        <header th:replace="layout :: header"></header>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/slider.jpg" alt="slider">
+                </div>
+            </div>
+        </div>
+        <footer th:replace="layout :: footer"></footer>
+    </body>
+    <script th:replace="layout::script"></script>
+</html>
